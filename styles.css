@@ -1,0 +1,63 @@
+.category-menu {
+  color: rgb(0, 0, 0);
+  padding: 0px;
+  border-radius: 8px;
+}
+a
+{
+  color:rgba(106, 152, 60, 1);
+}
+.width_1{
+  width:1200px;
+  display: flex;
+  margin-left: 50px;
+}
+ 
+.pos{
+  top: 15px;
+  left: 20px;
+  position: absolute;
+  width: 55px;
+  height: 30px;
+}
+
+.banner {
+  position: relative;
+  background: url('images/Group.png') no-repeat center center;
+  background-size: cover;
+  padding: 50px;
+  border-radius: 8px;
+  color: white;
+  text-align: left;
+}
+
+.banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: 1;
+}
+
+.banner h2, .banner p, .banner a {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+.product-price {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.card-bodyy{
+  padding: 5px;
+  background-image: url("images/Rectangle\ 25.png");
+  height: 333px;
+  background-repeat: no-repeat;
+}
+.mr{
+  margin-top: 200px;
+}
